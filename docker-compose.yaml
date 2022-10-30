@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  aws-lambda-nodejs-hello-world:
+    build: .
+    ports:
+      - "9000:8080"
